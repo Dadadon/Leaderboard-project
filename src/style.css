@@ -1,3 +1,12 @@
 li:nth-child(odd) {
   background-color: rgb(216, 214, 214);
 }
+
+.list {
+  overflow: scroll;
+  height: 50vh;
+}
+
+.el:hover {
+  color: greenyellow;
+}
