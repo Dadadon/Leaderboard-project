@@ -17,38 +17,20 @@
         <div class="w-50">
             <div class="d-flex justify-content-around w-75 mb-3">
                 <h5>Recent Scores</h5>
-                <button>Refresh</button>
+                <button id="refresh">Refresh</button>
             </div>
-            <div class="border border-dark p-0">
-                <ul class="p-0 mb-0">
-                    <li class="d-flex justify-content-around">
-                        <p>Name</p>
-                        <p>1000</p>
-                    </li>
-                    <li class="d-flex justify-content-around">
-                        <p>Name</p>
-                        <p>900</p>
-                    </li>
-                    <li class="d-flex justify-content-around">
-                        <p>Name</p>
-                        <p>800</p>
-                    </li>
-                    <li class="d-flex justify-content-around">
-                        <p>Name</p>
-                        <p>700</p>
-                    </li>
-                </ul>
-            </div>
+            <div id="list-contents"></div>
         </div>
         <div class="w-25 p-3">
             <h5>Add New Score</h5>
-            <form class="d-grid">
-                <input type="text" placeholder="Name">
-                <input type="text" placeholder="Score">
-                <button type="submit" class="w-50">Submit</button>
+            <form onsubmit="event.preventDefault();" class="d-grid" name="leaderboardForm">
+                <input type="text" placeholder="Name" name="userName">
+                <input type="text" placeholder="Score" name="score">
+                <button type="submit" class="w-50" id="submit">Submit</button>
             </form>
         </div>
     </section>
+   
 </body>
 
 </html>
