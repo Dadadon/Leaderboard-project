@@ -11,6 +11,7 @@ https://dadadon.github.io/Leaderboard-project/
 - css
 - github
 - webpack
+- REST Api
 
 ## Getting Started
 
@@ -23,6 +24,13 @@ https://dadadon.github.io/Leaderboard-project/
     **``git clone https://github.com/Dadadon/Leaderboard-project.git``**
  - Navigate to the location of the folder in your machine
     **``you@your-Pc-name:~$ cd <folder>``**
+ - To configure app
+    **``npm install``**
+ - Base url for api
+    **``https://us-central1-js-capstone-backend.cloudfunctions.net/api/``**
+ - Please go to this link for instructions on how to consume the leaderboard api [Leaderboard api](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3)
+  
+
  
 
 ## Author
