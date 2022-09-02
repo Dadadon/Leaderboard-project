@@ -8,7 +8,7 @@ const fetchLeaderboard = async (url) => {
   grabber("list-contents").innerHTML = "";
   // grabber("list-contents").classList = "border border-dark p-0";
   const container = document.createElement("ul");
-  container.classList = "ps-3 pe-3";
+  container.classList = "border border-dark p-0 m-0";
   result.forEach((item) => {
     const element = document.createElement("li");
     element.classList = "d-flex justify-content-around";

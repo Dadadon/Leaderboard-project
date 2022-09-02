@@ -17,16 +17,18 @@
         <div class="w-50">
             <div class="d-flex justify-content-around w-75 mb-3">
                 <h5>Recent Scores</h5>
-                <button id="refresh">Refresh</button>
+                <button id="refresh" type="button" class="btn btn-default el" aria-label="Left Align">
+                    <i class="fas fa-sync"></i>
+                </button>
             </div>
-            <div id="list-contents"></div>
+            <div id="list-contents" class="list"></div>
         </div>
         <div class="w-25 p-3">
             <h5>Add New Score</h5>
             <form onsubmit="event.preventDefault();" class="d-grid" name="leaderboardForm">
-                <input type="text" placeholder="Name" name="userName">
-                <input type="text" placeholder="Score" name="score">
-                <button type="submit" class="w-50" id="submit">Submit</button>
+                <input type="text" placeholder="Name" name="userName" class="row mb-3">
+                <input type="text" placeholder="Score" name="score" class="row mb-3">
+                <button type="submit" class="w-50 row btn btn-default el border border-dark" id="submit">Submit</button>
             </form>
         </div>
     </section>
