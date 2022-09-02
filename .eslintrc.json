@@ -13,6 +13,7 @@
     "airbnb-base"
   ],
   "rules": {
+    "object-shorthand": "off",
     "array-callback-return": "off",
     "consistent-return": "off",
     "import/no-cycle": "off",
