@@ -24,7 +24,6 @@ const fetchLeaderboard = async (url) => {
     container.appendChild(element);
   });
   grabber("list-contents").appendChild(container);
-
 };
 
 export default fetchLeaderboard;
